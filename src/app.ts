@@ -18,7 +18,7 @@ app.post("/registration/tempAcount" , (req:Request,res:Response) =>{
     if (!firstName || !lastName || !idCard || !birthDay || !email) {
         res.status(400).json({
             status:"400",
-             msg:"pls chk rqs bd"
+             msg:"pls chk rqs bd" 
         })
     } else {
         res.status(200).json({
