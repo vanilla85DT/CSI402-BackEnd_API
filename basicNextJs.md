@@ -45,6 +45,6 @@ git remote -v
 git init
 git add .
 git commit -m "wahahaha"
-git remote add origin https://github.com/vanilla85DT/CSI402-Frontend-NextJS.git
+git remote add origin https://github.com/vanilla85DT/CSI402-BackEnd_API.git
 git push origin main
 git push origin main --force
