@@ -1,0 +1,31 @@
+{
+  "name": "csi402nextbackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon --exec npm run dev",
+    "dev": "ts-node-dev --pretty --respawn ./src/app.ts"
+  },
+  "author": "Athitaya",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv": "^8.2.3",
+    "@types/helmet": "^4.0.0",
+    "@types/http-status-codes": "^1.2.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "expess": "^0.0.1-security",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.0",
+    "nodemon": "^3.1.9",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.3"
+  },
+  "keywords": [],
+  "description": ""
+}
